@@ -8,7 +8,7 @@ $dsn = getenv("DSN");
 
 
 try {
-    $db = new PDO($dsn, $userName, $pass);
+    $db = new PDO($dsn, $userName, $password);
     $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 } catch (PDOException $e) {
     echo $e->getMessage();
