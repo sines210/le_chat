@@ -1,9 +1,6 @@
 <?php
 
-$userName = "root";
-$pass = "SimpMarseille13";
-$host = "localhost";
-$dbName = "chat_simplon";
+
 
 
 try {
