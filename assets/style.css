@@ -1,0 +1,41 @@
+.container
+{height: 50vh;
+display:grid;
+place-items: center;}
+
+
+.main-article
+{height: 80vh;
+width: 100%;
+display: grid;
+place-items: center;}
+
+.main-article-home
+{height: 30vh;
+width: 100%;
+display: grid;
+place-items: center;}
+
+
+#tchat
+{height: 50vh;
+width: 150vh;
+background-color: blanchedalmond;
+display: block;
+overflow-y: scroll;
+scroll-behavior: smooth;}
+
+.form-control-chat
+{width: 150vh;}
+
+#tchatForm
+{margin-top: 5%;}
+
+.pseudo
+{color: blueviolet;
+font-weight: 800;}
+.content
+{color: black;}
+
+.form-control-accueil
+{width: 30vw;}
