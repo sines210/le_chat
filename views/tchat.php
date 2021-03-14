@@ -5,7 +5,7 @@
 session_start();
 if(!isset($_SESSION['pseudo'])|| empty($_SESSION['pseudo'])){
  header("Location:http://localhost:3000/index.php?page=home");}
-include '../database/connect.php';
+include './database/connect.php';
 
 ?>
 
