@@ -1,8 +1,8 @@
 <?php
 
 
-$userName = getenv("bd2c7dbc271629");
-$password = getenv("1f2aea8b");
+$userName = "bd2c7dbc271629";
+$password = "1f2aea8b";
 
 
 
