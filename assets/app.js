@@ -16,7 +16,7 @@ $(function() {
             getMessage();
             $("#tchatForm form textarea").val("")();  }
             else{
-                alert(data.erreur)
+               data.erreur.innerHTML = "erreur";
             }
         }, "json");
         return false;
